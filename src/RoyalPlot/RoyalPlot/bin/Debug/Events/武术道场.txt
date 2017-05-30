@@ -1,0 +1,9 @@
+﻿{"id":1,"thename":"遇到美女","note":null,"npclist":null,"plotlist":[
+{"thename":"缺省桥段","cliplist":[
+{"cliptype":0,"sad":"艾莉儿：那边的那位小姐！","command":""},
+{"cliptype":0,"sad":"玛丽亚：有什么事吗？","command":""},
+{"cliptype":0,"sad":"艾莉儿：镇上的武术道场正在招生，你有没有兴趣来试试看呢？","command":null},
+{"cliptype":0,"sad":"玛丽亚：哦~你是问我有没有兴趣啊……","command":null},
+{"cliptype":0,"sad":"艾莉儿：我觉得你又学武的素质耶，要不要来上个一两堂试试看？","command":null},
+{"cliptype":2,"sad":"好的/XXXX|算了/VVVVV/ccccc","command":""},
+]}]}

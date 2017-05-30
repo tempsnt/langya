@@ -1,0 +1,20 @@
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\obj\Debug\royalplot.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\obj\Debug\test.MainForm.resources
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\obj\Debug\royalplot.csproj.GenerateResource.Cache
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\bin\Debug\royalplot.exe.config
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\bin\Debug\royalplot.exe
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\bin\Debug\royalplot.pdb
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\obj\Debug\royalplot.exe
+C:\Users\Administrator.S7CWG4XNTROUQAS\Documents\SharpDevelop Projects\test\test\obj\Debug\royalplot.pdb
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\RoyalPlot.exe.config
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\RoyalPlot.exe
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\RoyalPlot.pdb
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\RoyalPlot.csprojResolveAssemblyReference.cache
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\test.MainForm.resources
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\RoyalPlot.csproj.GenerateResource.Cache
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\RoyalPlot.exe
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\RoyalPlot.pdb
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\Newtonsoft.Json.dll
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\Newtonsoft.Json.pdb
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\bin\Debug\Newtonsoft.Json.xml
+E:\RoyalPlot\src\RoyalPlot\RoyalPlot\obj\Debug\royalplot.UI.EventEdit.resources

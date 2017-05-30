@@ -1,0 +1,1 @@
+﻿{"thename":"king","cha":null,"job":null,"itr":null,"his":null,"psg":null,"rel":null}

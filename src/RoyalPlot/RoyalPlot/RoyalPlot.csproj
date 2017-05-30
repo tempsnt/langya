@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{33318211-AFB9-46B5-89D8-21229937A3A6}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>royalplot</RootNamespace>
+    <AssemblyName>RoyalPlot</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>json\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\engine\MessageEngine.cs" />
+    <Compile Include="Entity\event\actions\ActionList.cs" />
+    <Compile Include="Entity\event\actions\Actions.cs" />
+    <Compile Include="Entity\event\Clip.cs" />
+    <Compile Include="Entity\event\EventList.cs" />
+    <Compile Include="Entity\event\Events.cs" />
+    <Compile Include="Entity\event\meeting\Meeting.cs" />
+    <Compile Include="Entity\event\meeting\Party.cs" />
+    <Compile Include="Entity\event\meeting\Trial.cs" />
+    <Compile Include="Entity\event\message\Message.cs" />
+    <Compile Include="Entity\event\message\MessageList.cs" />
+    <Compile Include="Entity\event\place\Place.cs" />
+    <Compile Include="Entity\event\place\PlaceList.cs" />
+    <Compile Include="Entity\event\Plot.cs" />
+    <Compile Include="Entity\game\game.cs" />
+    <Compile Include="Entity\game\score.cs" />
+    <Compile Include="Entity\global.cs" />
+    <Compile Include="Entity\person\character\Character.cs" />
+    <Compile Include="Entity\person\history\History.cs" />
+    <Compile Include="Entity\person\interest\Interest.cs" />
+    <Compile Include="Entity\person\job\Job.cs" />
+    <Compile Include="Entity\person\King.cs" />
+    <Compile Include="Entity\person\prestige\Prestige.cs" />
+    <Compile Include="Entity\person\relation\Npcmap.cs" />
+    <Compile Include="Entity\person\relation\Relation.cs" />
+    <Compile Include="Entity\person\thebase\person.cs" />
+    <Compile Include="Entity\person\User.cs" />
+    <Compile Include="Entity\tools\Def.cs" />
+    <Compile Include="Entity\tools\tools.cs" />
+    <Compile Include="Entity\tools\tree.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\EventEdit.cs" />
+    <Compile Include="UI\EventEdit.Designer.cs">
+      <DependentUpon>EventEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.cs" />
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Entity\event\readme.txt" />
+    <None Include="Entity\event\objects\readme.txt" />
+    <None Include="Entity\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\EventEdit.resx">
+      <DependentUpon>EventEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\event\actions" />
+    <Folder Include="Entity\event\place" />
+    <Folder Include="Entity\event\meeting" />
+    <Folder Include="Entity\person" />
+    <Folder Include="Entity\event" />
+    <Folder Include="Entity\event\message" />
+    <Folder Include="Entity\person\thebase" />
+    <Folder Include="Entity\person\character" />
+    <Folder Include="Entity\person\relation" />
+    <Folder Include="Entity\game\scene" />
+    <Folder Include="Entity\event\objects" />
+    <Folder Include="Entity\person\rols" />
+    <Folder Include="Entity\event\effect" />
+    <Folder Include="Entity\game" />
+    <Folder Include="Entity\person\history" />
+    <Folder Include="Entity\person\job" />
+    <Folder Include="Entity\person\prestige" />
+    <Folder Include="Entity\person\interest" />
+    <Folder Include="Entity\tools" />
+    <Folder Include="Entity\engine" />
+    <Folder Include="UI" />
+    <Folder Include="Dao" />
+    <Folder Include="Logic" />
+    <Folder Include="Entity" />
+    <Folder Include="Service" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

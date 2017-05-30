@@ -1,0 +1,52 @@
+<root>
+  <ChildNode Value="皇帝">
+    <ChildNode Value="后宫系统">
+      <ChildNode Value="太后" />
+      <ChildNode Value="皇后" />
+      <ChildNode Value="贵妃" />
+      <ChildNode Value="妃" />
+      <ChildNode Value="嫔" />
+      <ChildNode Value="冷宫" />
+    </ChildNode>
+    <ChildNode Value="文官系统">
+      <ChildNode Value="丞相">
+        <ChildNode Value="吏部">
+          <ChildNode Value="尚书" />
+          <ChildNode Value="侍郎" />
+          <ChildNode Value="侍郎" />
+        </ChildNode>
+        <ChildNode Value="户部" />
+        <ChildNode Value="兵部" />
+        <ChildNode Value="礼部" />
+        <ChildNode Value="刑部" />
+        <ChildNode Value="工部" />
+      </ChildNode>
+    </ChildNode>
+    <ChildNode Value="武将系统" />
+    <ChildNode Value="情报系统" />
+    <ChildNode Value="继承系统" />
+    <ChildNode Value="宗族勋贵" />
+    <ChildNode Value="内监系统">
+      <ChildNode Value="总管大太监" />
+      <ChildNode Value="秉笔" />
+      <ChildNode Value="司礼" />
+      <ChildNode Value="御马" />
+    </ChildNode>
+  </ChildNode>
+  <ChildNode Value="江湖" />
+  <ChildNode Value="宗教">
+    <ChildNode Value="佛" />
+    <ChildNode Value="道" />
+    <ChildNode Value="白莲" />
+  </ChildNode>
+  <ChildNode Value="文人">
+    <ChildNode Value="东林" />
+    <ChildNode Value="岳麓" />
+  </ChildNode>
+  <ChildNode Value="军师">
+    <ChildNode Value="护卫" />
+    <ChildNode Value="情报" />
+    <ChildNode Value="红颜(指针)" />
+    <ChildNode Value="朋友(指针)" />
+  </ChildNode>
+</root>

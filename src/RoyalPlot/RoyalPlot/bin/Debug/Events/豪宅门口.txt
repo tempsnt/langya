@@ -1,0 +1,12 @@
+﻿{"id":1,"thename":"豪宅门口","note":null,"npclist":null,"plotlist":[
+{"thename":"缺省桥段","cliplist":[
+{"cliptype":4,"sad":"街道","command":""},
+{"cliptype":0,"sad":"帕特雷西亚：咦？有什么事吗？","command":""},
+{"cliptype":0,"sad":"玛丽亚：啊、不…没什么事…","command":""},
+{"cliptype":0,"sad":"帕特雷西亚：这里可不是像你这样贫穷的女孩子可以来的地方喔~","command":null},
+{"cliptype":0,"sad":"玛丽亚：……","command":null},
+{"cliptype":0,"sad":"帕特雷西亚：耶、你…你哭什么啊！？我只是在说实话而已啊~","command":null},
+{"cliptype":0,"sad":"帕特雷西亚：这个样子，好像我在欺负什么弱小动物一样，感觉有够差的。","command":null},
+{"cliptype":0,"sad":"玛丽亚：人家才不是什么弱小动物呢！","command":null},
+{"cliptype":2,"sad":"离开/XXXX|打架/VVVVV/ccccc","command":""},
+]}]}
